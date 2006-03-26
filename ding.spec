@@ -1,11 +1,12 @@
 Summary:	A Dictionary Lookup program
 Name:		ding
 Version:	1.4
-Release:	0.1
+Release:	0.2
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://wftp.tu-chemnitz.de/pub/Local/urz/ding/%{name}-%{version}.tar.gz
 # Source0-md5:	d278c1026fe0f784ed7984721088dd23
+Patch0:		%{name}-desktop.patch
 URL:		http://www-user.tu-chemnitz.de/~fri/ding/
 Requires:	/usr/bin/wish
 BuildArch:	noarch
@@ -25,6 +26,7 @@ ca. 180.000 Einträgen.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %install
 rm -rf $RPM_BUILD_ROOT

@@ -1,0 +1,13 @@
+--- ding-1.4/ding.desktop~	2005-01-21 12:31:27.000000000 +0200
++++ ding-1.4/ding.desktop	2006-03-26 19:38:07.000000000 +0300
+@@ -4,8 +4,8 @@
+ Name[de]=Ding: Wörterbuch Englisch-Deutsch
+ GenericName=ding
+ GenericName[de]=ding
+-Exec=/usr/X11R6/bin/ding
++Exec=/usr/bin/ding
+ Icon=ding.png
+ Terminal=0
+ Type=Application
+-Categories=Application;Utility;X-Red-Hat-Extra;
++Categories=Office;Dictionary;
