@@ -1,5 +1,5 @@
 Summary:	A Dictionary Lookup program
-Summary(pl):	Program do wyszukiwania s³ów w s³ownikach
+Summary(pl.UTF-8):   Program do wyszukiwania sÅ‚Ã³w w sÅ‚ownikach
 Name:		ding
 Version:	1.4
 Release:	0.2
@@ -19,17 +19,17 @@ It uses tools like agrep, dict, ispell/aspell etc. It contains a
 program (ding) written in Tcl/Tk and a German - English dictionary
 with about 180,000 translations.
 
-%description -l de
+%description -l de.UTF-8
 Ding (DIctionary Nice Grep) ist ein Programm zur Suche in
-Wörterbüchern. Es benutzt zur Suche Werkzeuge wie agrep bzw. egrep,
-dict, ispell/aspell. Es basiert auf Tcl/Tk und enthält ein Deutsch-
-Englisches Wörterbuch mit ca. 180.000 Einträgen.
+WÃ¶rterbÃ¼chern. Es benutzt zur Suche Werkzeuge wie agrep bzw. egrep,
+dict, ispell/aspell. Es basiert auf Tcl/Tk und enthÃ¤lt ein Deutsch-
+Englisches WÃ¶rterbuch mit ca. 180.000 EintrÃ¤gen.
 
-%description -l pl
-Ding (DIctionary Nice Grep) to narzêdzie do wyszukiwania s³ów w
-s³ownikach. U¿ywa narzêdzi takich jak agrep, dict, ispell/aspell itp.
-Zawiera program (ding) napisany w jêzyku Tcl/Tk i s³ownik
-niemiecko-angielski zawieraj±cy oko³o 180000 t³umaczeñ.
+%description -l pl.UTF-8
+Ding (DIctionary Nice Grep) to narzÄ™dzie do wyszukiwania sÅ‚Ã³w w
+sÅ‚ownikach. UÅ¼ywa narzÄ™dzi takich jak agrep, dict, ispell/aspell itp.
+Zawiera program (ding) napisany w jÄ™zyku Tcl/Tk i sÅ‚ownik
+niemiecko-angielski zawierajÄ…cy okoÅ‚o 180000 tÅ‚umaczeÅ„.
 
 %prep
 %setup -q
