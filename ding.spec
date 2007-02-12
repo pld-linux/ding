@@ -1,5 +1,5 @@
 Summary:	A Dictionary Lookup program
-Summary(pl.UTF-8):   Program do wyszukiwania słów w słownikach
+Summary(pl.UTF-8):	Program do wyszukiwania słów w słownikach
 Name:		ding
 Version:	1.4
 Release:	0.2
