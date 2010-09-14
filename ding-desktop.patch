@@ -1,7 +1,16 @@
---- ding-1.4/ding.desktop~	2005-01-21 12:31:27.000000000 +0200
-+++ ding-1.4/ding.desktop	2006-03-26 19:38:07.000000000 +0300
-@@ -8,4 +8,4 @@
- Icon=ding.png
+--- ding-1.7/ding.desktop~	2009-04-15 08:25:28.000000000 +0200
++++ ding-1.7/ding.desktop	2010-09-14 13:16:11.815055141 +0200
+@@ -2,10 +2,10 @@
+ Encoding=UTF-8
+ Name=Ding: Dictionary English-German
+ Name[de]=Ding: Wörterbuch Englisch-Deutsch
++Name[pl]=Ding: Słownik Angielsko-Niemiecki
+ GenericName=ding
+-GenericName[de]=ding
+-Exec=/usr/bin/ding
+-Icon=ding.png
++Exec=ding
++Icon=ding
  Terminal=0
  Type=Application
 -Categories=Application;Utility;X-Red-Hat-Extra;
