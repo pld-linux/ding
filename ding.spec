@@ -1,12 +1,12 @@
 Summary:	A Dictionary Lookup program
 Summary(pl.UTF-8):	Program do wyszukiwania słów w słownikach
 Name:		ding
-Version:	1.5
-Release:	0.2
-License:	GPL v2
+Version:	1.7
+Release:	0.1
+License:	GPL v2+
 Group:		X11/Applications
 Source0:	http://wftp.tu-chemnitz.de/pub/Local/urz/ding/%{name}-%{version}.tar.gz
-# Source0-md5:	74c2b3104f8732107c23c005b64d5609
+# Source0-md5:	f021c0cb21105cf0ccd38330c2598ed1
 Patch0:		%{name}-desktop.patch
 URL:		http://www-user.tu-chemnitz.de/~fri/ding/
 Requires:	/usr/bin/wish
@@ -52,6 +52,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc README CHANGES COPYING
 %attr(755,root,root) %{_bindir}/ding
 %{_datadir}/dict/de-en.txt
-%{_mandir}/man1/*
+%{_mandir}/man1/ding.1*
 %{_desktopdir}/ding.desktop
 %{_pixmapsdir}/ding.png
